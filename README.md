@@ -2,14 +2,14 @@
 
 ### Paladin
 
-`/vr hoj`<br>
+`/bi hoj`<br>
 Hand of Justice macro.  Reports CD time left if it is on Cooldown.
 
-`/vr loh`<br>
+`/bi loh`<br>
 Mouseover Lay on Hands.
 
-`/vr bop`<br>
+`/bi bop`<br>
 Mouseover Blessing of Protection.
 
-`/vr bof`<br>
+`/bi bof`<br>
 Mouseover Blessing of Freedom.
