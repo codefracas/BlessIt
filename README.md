@@ -10,3 +10,6 @@ Mouseover Lay on Hands.
 
 `/vr bop`<br>
 Mouseover Blessing of Protection.
+
+`/vr bof`<br>
+Mouseover Blessing of Freedom.
