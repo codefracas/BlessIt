@@ -1,0 +1,34 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+
+    <Script file="BlessIt.lua"/>
+    <Include file="constants\constants.xml"/>
+    <Script file="config.lua"/>
+    <Include file="Logging.lua"/>
+    <Include file="VRLib.lua"/>
+
+    <Include file="Events.lua"/>
+    <Include file="HUD.lua"/>
+    <Include file="Lists.lua"/>
+
+    <GameTooltip name="BlessItToolTip" inherits="GameTooltipTemplate" parent="UIParent" hidden="true"/>
+
+    <Frame name="BlessItFrame" hidden="false">
+        <Scripts>
+            <OnLoad>
+                BlessIt_OnLoad();
+                BlessIt_XML_FileBuildNumber = 687
+            </OnLoad>
+            <OnUpdate>
+                BlessIt_OnUpdate(arg1);
+            </OnUpdate>
+            <OnEvent>
+                BlessIt_OnEvent(event, arg1, arg2, arg3);
+            </OnEvent>
+        </Scripts>
+    </Frame>
+    
+    <Include file="Paladin\Paladin.xml"/>
+    
+</Ui>

@@ -1,0 +1,10 @@
+## Interface: 11200
+## Author: Dispatch
+## Title: BlessIt
+## Version: 1.0
+## Notes: Vanilla AIO Class Rotations (1.12.1)
+## OptionalDeps: Zorlen, Quiver
+BlessIt.lua
+BlessIt.xml
+
+
